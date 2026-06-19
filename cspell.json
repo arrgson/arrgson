@@ -6,8 +6,6 @@
   ],
   "words": [
     "codespell",
-    "eslint",
-    "phpstan",
     "shellcheck",
     "symfony"
   ]

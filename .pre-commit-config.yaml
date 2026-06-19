@@ -1,0 +1,46 @@
+# pre-commit hooks — universal baseline. Add stack-specific hooks (eslint,
+# phpstan, …) under `repos:` for this project.
+#
+# Pin revs: pre-commit autoupdate   (authoritative — don't hand-edit revs)
+
+default_install_hook_types: [pre-commit, commit-msg]
+# file checks run only at the pre-commit stage; the commit-msg stage is just the
+# Conventional Commits check (don't shellcheck/cspell the commit message itself)
+default_stages: [pre-commit]
+
+repos:
+  # universal hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: detect-private-key
+
+  # Conventional Commits (commit-msg stage)
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.4.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+
+  # typo-check the commit message (commit-msg stage) — only known misspellings
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.2
+    hooks:
+      - id: codespell
+        stages: [commit-msg]
+
+  # shell linting
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+      - id: shellcheck
+
+  # spell check — shares cspell.json with the VS Code Code Spell Checker extension
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v10.0.1
+    hooks:
+      - id: cspell

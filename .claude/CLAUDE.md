@@ -5,12 +5,13 @@ in `~/.claude/CLAUDE.md`; keep this file to what's specific to this project.
 
 ## Overview
 
-<!-- What this project is and how it's structured. -->
-
-## Commands
-
-<!-- Build / test / run / lint commands worth knowing. -->
+This is the special GitHub **profile README** repo: its name matches the
+username (`arrgson/arrgson`), so `README.md` renders at the top of the profile
+page at https://github.com/arrgson.
 
 ## Conventions
 
-<!-- Project-specific conventions, gotchas, do's and don'ts. -->
+- The repo must stay **public** and `README.md` must stay **non-empty** in the
+  root, or it won't render on the profile. Don't rename the repo.
+- Tech-stack badges use shields.io flat style (`?style=flat&logo=…`).
+- It's a professional showcase — keep it concise; bio + tech stack only.

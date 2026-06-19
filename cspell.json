@@ -8,6 +8,7 @@
     "codespell",
     "eslint",
     "phpstan",
-    "shellcheck"
+    "shellcheck",
+    "symfony"
   ]
 }

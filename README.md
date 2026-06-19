@@ -1,11 +1,13 @@
-# Project name
+### Full-stack developer
 
-One-line description of what this project does.
+Building web applications with **Angular** on the front end and **Symfony** on the back end.
 
-## Setup
+#### Tech stack
 
-How to get it running.
-
-## Usage
-
-How to use it.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat&logo=symfony&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)

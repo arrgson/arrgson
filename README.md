@@ -1,8 +1,8 @@
-### Full-stack developer
+# Full-stack developer
 
 Building web applications with **Angular** and **Symfony**.
 
-#### Tech stack
+## Tech stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)

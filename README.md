@@ -1,6 +1,6 @@
 ### Full-stack developer
 
-Building web applications with **Angular** on the front end and **Symfony** on the back end.
+Building web applications with **Angular** and **Symfony**.
 
 #### Tech stack
 
